@@ -1,1 +1,4 @@
 # Restaurant-Review-Sentiment-Analysis
+It is a NLP based project on Sentiment Analysis. The objective of the project is to predict whether a particular review is positive or negative. I have used a text csv file which consists of reviews of different restaurants. Positive review is labelled as 1 while negative review is marked as 0. The data was preprocessed first using Tokenization and Stemming. Then, I have created vectors using Bag of Words Technique. A Naive Bayes model is created with these vectors where I achieved a precision of 0.79 on training dataset while 0.76 on test dataset. Also tried other algorithms such as Random Forest and Logistic Regression using cross validation, but Naive Bayes provides better results.
+
+The web app is deployed using flask on local host. Below are the snippets of the working of the app.
